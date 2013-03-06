@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<display>
+		<time x="468" y="1" /> <!-- defaults: 474, -1 -->
+		<splash x="69" y="94" /> <!-- defaults: 69, 94 -->
+		<about x="4" y="26" okayx="361" okayy="191" /> <!-- defaults: 4, 26, 361, 191 -->
+		<instructions x="20" y="27" okayx="180" okayy="269" /> <!-- defaults: 20, 27, 180, 269 -->
+		<setendscore x="75" y="45" okayx="122" okayy="67" cancelx="46" cancely="71" /> <!-- defaults: 75, 45, 122, 67, 46, 71 -->
+		<scorewarning x="-42" y="13" okayx="248" okayy="29" /> <!-- defaults: -42, 13, 248, 29 -->
+		<scoreinput x="154" y="28" width="35" height="30" restrict="1234567890" maxchars="3" /> <!-- defaults: 154, 28, 35, 30, 1234567890, 3 -->
+		<play width="516" height="326" color="0xFFFFFF" xpadding="8" ytoppadding="0" ybottompadding="3" /> <!-- defaults: 516, 326, 0xFFFFFF, 8, 0, 3 -->
+	</display>
+	
+	<io>
+		<player type="mouse" /> <!-- ai, mouse, impossible, stationary --> 
+		<enemy type="ai" speedfactor="1" /> <!-- ai, mouse, impossible, stationary -->
+		<velocityratio value="3.6" />
+		<ballspeedmultiplier value="10" />
+		<tickspeed>
+			<speed value="54" />
+			<speed value="27" /> <!-- default 27 -->
+			<speed value="18" />
+		</tickspeed>
+		<serve type="straight" /> <!-- straight, random -->
+		<bounce dampener="0.55" /> <!-- applied to dampen paddle bounce angle severity -->
+		<ai showpath="0" /> <!-- 0, 1 to show calculated path lines -->
+		<mouseleave notification="1" /> <!-- 1, 0 to prevent mouse leave events from pausing game -->
+	</io>
+	
+	<defaults>
+		<player size="2" color="0x000000" multiplier="14" width="8" /> <!-- defaults: 2, 0x000000, 14, 8 -->
+		<enemy size="2" color="0x000000" multiplier="14" width="8" /> <!-- defaults: 2, 0x000000, 14, 8  -->
+		<ball size="2" speed="2" color="0x000000" /> <!-- defaults: 2, 2, 0x000000 -->
+		<difficulty value="2" /> <!-- default: 2 -->
+		<scoretowin value="4" /> <!-- default: 4, set to zero for never-ending -->
+		<playerservesfirst value="1" /> <!-- 0 == false, 1 == true, default is 1 -->
+		<soundtoggle value="1" /> <!-- 0 == false, 1 == true, defaults is 1 -->
+	</defaults>
+
+	<menu>
+		<display bgcolor="0xFFFFFF" textcolor="0x000000" /> <!-- defaults: 0xFFFFFF, 0x000000 -->
+		
+		<!-- There's no point in messing with the stuff below; changing the words won't change the functionality. -->
+		<dropmenu header="SEPTAGON">
+			<item value="About GNOP..." />
+		</dropmenu>
+		<dropmenu header="File">
+			<item value="New Game" />
+			<item value="LINE" />
+			<item value="Quit" />
+		</dropmenu>
+		<dropmenu header="Paddles">
+			<item value="GREY_Player" />
+			<item value="TAB_Small" />
+			<item value="TAB_Normal" />
+			<item value="TAB_Large" />
+			<item value="LINE" />
+			<item value="GREY_Computer" />
+			<item value="TAB_Small" />
+			<item value="TAB_Normal" />
+			<item value="TAB_Large" />
+		</dropmenu>
+		<dropmenu header="Ball">
+			<item value="Small" />
+			<item value="Normal" />
+			<item value="Large" />
+			<item value="LINE" />
+			<item value="Slow" />
+			<item value="Normal" />
+			<item value="Fast" />
+		</dropmenu>
+		<dropmenu header="Options">
+			<item value="Novice" />
+			<item value="Intermediate" />
+			<item value="Expert" />
+			<item value="LINE" />
+			<item value="Set Ending Score..." />
+			<item value="LINE" />
+			<item value="Computer Serves First" />
+			<item value="You Serve First" />
+			<item value="LINE" />
+			<item value="Sound" />
+		</dropmenu>
+		<dropmenu header="Help">
+			<item value="Instructions..." />
+		</dropmenu>
+	</menu>
+</data>
