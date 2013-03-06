@@ -11,6 +11,8 @@ visit <http://www.steverichey.com/aboutgnop>. The source code
 for this game is available at
 <https://github.com/steverichey/gnopflash>.
 
+This game was written entirely in FlashDevelop, which you can get at <http://www.flashdevelop.org/>.  To compile your own version of this game, all you need to do is download FlashDevelop, and open the GNOP.as3proj file. After that, you should just be able to press F5 to get the game running! If you have any difficulty with this process, let me know.  I tried to make it easy for others to mess around with this game's code.
+
 This file is part of GNOP! Flash. GNOP! Flash was created by Steve
 Richey and is a remake of the original GNOP!, released in 1990, which
 was created by Alexander Seropian. The existence of this program
