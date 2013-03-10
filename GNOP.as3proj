@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\GNOP.swf" />
+    <movie path="bin\data\GNOP.swf" />
     <movie fps="60" />
     <movie width="640" />
     <movie height="480" />
